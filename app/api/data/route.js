@@ -1,5 +1,6 @@
 // app/api/data/route.js
 // This API route fetches data from Yahoo Finance and FRED
+export const dynamic = 'force-dynamic';
 
 import yahooFinance from 'yahoo-finance2';
 
