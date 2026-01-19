@@ -4,7 +4,7 @@
 import yahooFinance from 'yahoo-finance2';
 
 // FRED API - Get your free key at: https://fred.stlouisfed.org/docs/api/api_key.html
-const FRED_API_KEY = process.env.FRED_API_KEY || 'YOUR_FRED_API_KEY';
+const FRED_API_KEY = process.env.FRED_API_KEY || 'f25fd4b35fd3c61de4746a3eafcec7c5';
 
 // Yahoo Finance symbols
 const YAHOO_SYMBOLS = {
